@@ -1,0 +1,9 @@
+Python punya 2 tie data :
+-tipe data primitif
+-tipe data non primitif
+
+Tipe data primitif:
+1.Integer(Int) merupakan penggambaran sebuah tipe data untuk menampilkan nilai numerik(angka bulat)
+2.String (str) untuk menampilkan data non numerik , str tidk bisa dioperasikan layaknya numerik
+3.Float merupakan tipe data yang digunakan untuk menampilkan nilai numerik desimal
+4.Boolean(bol) merupakan tipe data untuk menampilkan nilai true/false

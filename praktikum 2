@@ -1,0 +1,35 @@
+# 1. variable declaration
+
+variable1 = 10
+variable2 = 10.5
+variable3 = "sepuluh"
+variable4 = True
+
+# 2. operators -> +, -, *, /, %, =
+# 3. perulangan -> looping
+# 4. for statement 
+# index data -> dimulai 0
+
+for baris in range(5):
+     for kolom in range (5): 
+        print ("*",end="")
+     print()   
+     
+     #while iteration -> need condi
+     baris2 = 0
+     tengah = 5
+     while baris2 < 5:
+        kolom2 = 0
+        if(baris2 % 2== 1):
+           while kolom2 < 5:
+              if(kolom2 == int(round(tengah/2))):
+                 print("*",end="")
+              else:
+                 print(" ",end="")
+              kolom2 += 1
+        else:
+            while kolom2 < 5 :
+               print(" ",end="")      
+               kolom2 += 1
+        print() 
+        baris2 += 1    
